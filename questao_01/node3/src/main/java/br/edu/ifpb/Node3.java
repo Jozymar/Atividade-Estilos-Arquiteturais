@@ -12,6 +12,7 @@ public class Node3 {
 
         //Criando servidor
         ServerSocket serverSocket = new ServerSocket(8082);
+        System.out.println("Aguardando uma conexão...");
 
         //Criando socket
         Socket socket = serverSocket.accept();
@@ -20,6 +21,7 @@ public class Node3 {
 
         Mensagem mensagem = null;
         try {
+            //Recebendo mensagem de node 2
             mensagem = (Mensagem) objectInputStream.readObject();
             System.out.println("Mensagem recebida de node 2: " + mensagem);
         } catch (SocketException e) {
@@ -29,6 +31,7 @@ public class Node3 {
 
         double fxy = ((Math.pow(mensagem.getNumero1(), mensagem.getNumero1())) + (Math.pow(mensagem.getNumero2(), mensagem.getNumero2())));
 
+        //Enviando mensagem para node 2
         objectOutputStream.writeObject(fxy);
         System.out.println("Mensagem enviada para node 2: " + fxy);
         socket.close();

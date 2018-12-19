@@ -12,10 +12,12 @@ public class Node3 {
 
         //Criando servidor
         ServerSocket serverSocket = new ServerSocket(8082);
+        System.out.println("Aguardando uma conexão...");
 
         //Criando socket
         Socket socket = serverSocket.accept();
 
+        //Recebendo mensagem
         ObjectInputStream objectInputStream = new ObjectInputStream(socket.getInputStream());
         Requisicao requisicao = (Requisicao) objectInputStream.readObject();
         System.out.println("Mensagem recebida: " + requisicao);

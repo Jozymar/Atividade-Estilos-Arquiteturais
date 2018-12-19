@@ -14,31 +14,25 @@ public class Node2ComThread {
 
         //Criando servidor
         ServerSocket serverSocket = new ServerSocket(8081);
+        System.out.println("Aguardando inserções...");
 
         //Criando socket
         Socket socket = serverSocket.accept();
 
+        //Instancia o dao do Postgres
         DaoPostgres daoPostgres = new DaoPostgres();
 
+        //Instancia o dao do Mysql
         DaoMysql daoMysql = new DaoMysql();
 
-        long tempoInicial = 0;
-        long tempoFinal = 0;
+        long tempoInicial = System.currentTimeMillis();
 
         for (int i = 0; i < 1000; i ++) {
 
-            if (i == 0) {
-                tempoInicial = System.currentTimeMillis();
-            }
-
-            if (i == 999) {
-                tempoFinal = System.currentTimeMillis();
-            }
-
             ObjectInputStream objectInputStream = new ObjectInputStream(socket.getInputStream());
             final User user = (User) objectInputStream.readObject();
-            System.out.println("Mensagem recebida de node1: " + user);
 
+            //Thread para inserir dados no Postgres
                Thread pg = new Thread(() -> {
                    try {
                        daoPostgres.insert(user);
@@ -49,10 +43,11 @@ public class Node2ComThread {
                    }
                });
 
-            pg.start();
+               pg.start();
 
                pg.join();
 
+            //Thread para inserir dados no Mysql
             Thread my = new Thread(() -> {
                 try {
                     daoMysql.insert(user);
@@ -67,6 +62,9 @@ public class Node2ComThread {
 
         }
 
+        long tempoFinal = System.currentTimeMillis();
+
+        System.out.println("Inserções finalizadas.");
         System.out.println("Tempo total: " + ((tempoFinal - tempoInicial)/1000) + " segundos.");
 
         socket.close();

@@ -4,5 +4,5 @@ import java.sql.SQLException;
 
 public interface IUserDao {
 
-    public boolean insert(User user) throws SQLException, ClassNotFoundException;
+    boolean insert(User user) throws SQLException, ClassNotFoundException;
 }

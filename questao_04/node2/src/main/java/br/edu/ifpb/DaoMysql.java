@@ -6,6 +6,7 @@ import java.sql.SQLException;
 
 public class DaoMysql implements IUserDao{
 
+    //Método para inserir os dados no banco Mysql
     @Override
     public boolean insert(User user) throws SQLException, ClassNotFoundException {
 

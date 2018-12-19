@@ -6,6 +6,7 @@ import java.sql.SQLException;
 
 public class ConFactory {
 
+    //Cria a conexão com o banco Postgres
     public static Connection getConnectionPostgres() throws ClassNotFoundException, SQLException {
 
         Class.forName("org.postgresql.Driver");
@@ -17,6 +18,7 @@ public class ConFactory {
         return DriverManager.getConnection(url, usuario, senha);
     }
 
+    //Cria a conexão com o banco Mysql
     public static Connection getConnectionMysql() throws ClassNotFoundException, SQLException {
 
         Class.forName("com.mysql.cj.jdbc.Driver");

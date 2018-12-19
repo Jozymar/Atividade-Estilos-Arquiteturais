@@ -12,6 +12,7 @@ public class Node4 {
 
         //Criando servidor
         ServerSocket serverSocket = new ServerSocket(8083);
+        System.out.println("Aguardando uma conexão...");
 
         //Criando socket
         Socket socket = serverSocket.accept();
@@ -19,6 +20,7 @@ public class Node4 {
         ObjectOutputStream objectOutputStream = new ObjectOutputStream(socket.getOutputStream());
         ObjectInputStream objectInputStream = new ObjectInputStream(socket.getInputStream());
 
+        //Recebendo mensagem
         Requisicao requisicao = (Requisicao) objectInputStream.readObject();
         System.out.println("Mensagem recebida: " + requisicao);
 
@@ -42,10 +44,12 @@ public class Node4 {
 
     }
 
+    //Método que realiza a operação 1
     private static Integer operacao1(Integer x, Integer y){
         return  x + y;
     }
 
+    //Método que realiza a operação 2
     private static Integer operacao2(Integer x, Integer y){
         return  x - y;
     }

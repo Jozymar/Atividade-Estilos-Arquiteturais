@@ -12,15 +12,18 @@ public class Node2 {
 
         //Criando servidor
         ServerSocket serverSocket = new ServerSocket(8081);
+        System.out.println("Aguardando uma conexão...");
 
         //Criando socket
         Socket socket = serverSocket.accept();
 
+        //Recebendo mensagem
         ObjectInputStream objectInputStream = new ObjectInputStream(socket.getInputStream());
         Requisicao requisicao = (Requisicao) objectInputStream.readObject();
         System.out.println("Mensagem recebida: " + requisicao);
 
         if (requisicao.getOperacao().equals("op1")) {
+            //Criando socket
             Socket socket1 = new Socket("localhost", 8083);
 
             ObjectOutputStream objectOutputStream1 = new ObjectOutputStream(socket1.getOutputStream());
@@ -40,6 +43,7 @@ public class Node2 {
         }
 
         if (requisicao.getOperacao().equals("op2")) {
+            //Criando socket
             Socket socket2 = new Socket("localhost", 8082);
 
             ObjectOutputStream objectOutputStream2 = new ObjectOutputStream(socket2.getOutputStream());

@@ -13,6 +13,7 @@ public class Node1 {
 
         //Criando servidor
         ServerSocket serverSocket = new ServerSocket(8081);
+        System.out.println("Aguardando uma conexão...");
 
         //Criando socket
         Socket socket = serverSocket.accept();
@@ -23,6 +24,7 @@ public class Node1 {
 
         if (requisicao.getOperacao().equals("op1")) {
 
+            //Variável que armazena o resultado da operação 1
             Integer op1 = sum(requisicao.getX(), requisicao.getY());
 
             FileWriter fileWriter = new FileWriter("/home/jozimar/Documentos/repositorio/sum.txt", true);
@@ -37,6 +39,7 @@ public class Node1 {
         socket.close();
     }
 
+    //Método que realiza a operação sum
     private static Integer sum(Integer x, Integer y){
         return  x + y;
     }

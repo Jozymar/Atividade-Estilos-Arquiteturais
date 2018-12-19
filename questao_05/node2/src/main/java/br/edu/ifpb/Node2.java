@@ -13,6 +13,7 @@ public class Node2 {
 
         //Criando servidor
         ServerSocket serverSocket = new ServerSocket(8082);
+        System.out.println("Aguardando uma conexão...");
 
         //Criando socket
         Socket socket = serverSocket.accept();
@@ -23,6 +24,7 @@ public class Node2 {
 
         if (requisicao.getOperacao().equals("op2")) {
 
+            //Variável que armazena o resultado da operação 2
             Integer op2 = diff(requisicao.getX(), requisicao.getY());
 
             FileWriter fileWriter = new FileWriter("/home/jozimar/Documentos/repositorio/diff.txt", true);
@@ -37,6 +39,7 @@ public class Node2 {
         socket.close();
     }
 
+    //Método que realiza a operação diff
     private static Integer diff(Integer x, Integer y){
         return  x - y;
     }

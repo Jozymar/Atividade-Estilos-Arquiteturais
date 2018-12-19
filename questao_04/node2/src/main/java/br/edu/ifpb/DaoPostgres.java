@@ -6,6 +6,7 @@ import java.sql.SQLException;
 
 public class DaoPostgres implements IUserDao{
 
+    //Método para inserir os dados no banco Postgres
     @Override
     public boolean insert(User user) throws SQLException, ClassNotFoundException {
 
