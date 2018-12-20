@@ -1,9 +1,6 @@
 package br.edu.ifpb;
 
-import java.io.BufferedWriter;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.ObjectInputStream;
+import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
 
@@ -27,13 +24,20 @@ public class Node2 {
             //Variável que armazena o resultado da operação 2
             Integer op2 = diff(requisicao.getX(), requisicao.getY());
 
-            FileWriter fileWriter = new FileWriter("/home/jozimar/Documentos/repositorio/diff.txt", true);
-            BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
+            File diff_file = new File("/opt/shared/diff.txt");
 
-            bufferedWriter.write(op2.toString());
-            bufferedWriter.newLine();
-            bufferedWriter.close();
+            if (diff_file.exists()) {
 
+                FileWriter fileWriter = new FileWriter(diff_file.getAbsoluteFile(), true);
+                BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
+
+                bufferedWriter.write(op2.toString());
+                bufferedWriter.newLine();
+                bufferedWriter.close();
+
+            } else {
+                System.out.println("Arquivo não existe!");
+            }
         }
 
         socket.close();

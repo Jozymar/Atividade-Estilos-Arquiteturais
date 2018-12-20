@@ -1,9 +1,6 @@
 package br.edu.ifpb;
 
-import java.io.BufferedWriter;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.ObjectInputStream;
+import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
 
@@ -27,12 +24,20 @@ public class Node1 {
             //Variável que armazena o resultado da operação 1
             Integer op1 = sum(requisicao.getX(), requisicao.getY());
 
-            FileWriter fileWriter = new FileWriter("/home/jozimar/Documentos/repositorio/sum.txt", true);
-            BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
+            File sum_file = new File("/opt/shared/sum.txt");
 
-            bufferedWriter.write(op1.toString());
-            bufferedWriter.newLine();
-            bufferedWriter.close();
+            if (sum_file.exists()) {
+
+                FileWriter fileWriter = new FileWriter(sum_file.getAbsoluteFile(), true);
+                BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
+
+                bufferedWriter.write(op1.toString());
+                bufferedWriter.newLine();
+                bufferedWriter.close();
+
+            } else {
+                System.out.println("Arquivo não existe!");
+            }
 
         }
 
