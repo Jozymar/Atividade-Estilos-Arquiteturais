@@ -2,18 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d042d1b-5f04-41bc-82c0-9f913e88b5da" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../questao_04/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../questao_04/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../questao_04/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../questao_04/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../questao_04/node2/src/main/java/br/edu/ifpb/DaoMysql.java" beforeDir="false" afterPath="$PROJECT_DIR$/../questao_04/node2/src/main/java/br/edu/ifpb/DaoMysql.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../questao_04/node2/src/main/java/br/edu/ifpb/DaoPostgres.java" beforeDir="false" afterPath="$PROJECT_DIR$/../questao_04/node2/src/main/java/br/edu/ifpb/DaoPostgres.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../questao_04/node2/src/main/java/br/edu/ifpb/Node2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../questao_04/node2/src/main/java/br/edu/ifpb/Node2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../questao_04/node2/src/main/java/br/edu/ifpb/Node2ComThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/../questao_04/node2/src/main/java/br/edu/ifpb/Node2ComThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node0/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/node0/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node1/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/node1/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node1/src/main/java/br/edu/ifpb/Node1.java" beforeDir="false" afterPath="$PROJECT_DIR$/node1/src/main/java/br/edu/ifpb/Node1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node2/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/node2/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node2/src/main/java/br/edu/ifpb/Node2.java" beforeDir="false" afterPath="$PROJECT_DIR$/node2/src/main/java/br/edu/ifpb/Node2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-images.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kill-all.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start-all.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/diff.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/sum.txt" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node0/target/" />
     <ignored path="$PROJECT_DIR$/node1/target/" />
@@ -56,12 +51,13 @@
     <session id="1515487642">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.0" value="1" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.40" value="1" />
           <entry key="project.open.time.46" value="1" />
+          <entry key="project.open.time.48" value="1" />
           <entry key="project.open.time.50" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -78,54 +74,20 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="29" />
+          <entry key="java" value="31" />
           <entry key="xml" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="29" />
+          <entry key="JAVA" value="31" />
           <entry key="XML" value="12" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node0/src/main/java/br/edu/ifpb/Node0.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/node2/src/main/java/br/edu/ifpb/Node2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node1/src/main/java/br/edu/ifpb/Node1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="28" column="62" selection-start-line="28" selection-start-column="62" selection-end-line="28" selection-end-column="62" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -162,7 +124,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-1" />
     <option name="y" value="32" />
     <option name="width" value="515" />
@@ -174,7 +136,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -292,6 +253,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -388,17 +350,18 @@
       <workItem from="1545312243525" duration="1800000" />
       <workItem from="1545320989844" duration="3718000" />
       <workItem from="1545341534478" duration="10323000" />
+      <workItem from="1545406063505" duration="608000" />
+      <workItem from="1545406680470" duration="4000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29379000" />
+    <option name="totallyTimeSpent" value="29991000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="25" width="1368" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32575756" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33636364" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -473,20 +436,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node1/src/main/java/br/edu/ifpb/Node1.java">
+    <entry file="file://$PROJECT_DIR$/node0/src/main/java/br/edu/ifpb/Node0.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="28" column="62" selection-start-line="28" selection-start-column="62" selection-end-line="28" selection-end-column="62" />
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node0/src/main/java/br/edu/ifpb/Node0.java">
+    <entry file="file://$PROJECT_DIR$/node1/src/main/java/br/edu/ifpb/Node1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="150">
+          <caret line="28" column="62" selection-start-line="28" selection-start-column="62" selection-end-line="28" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -495,8 +458,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/node2/src/main/java/br/edu/ifpb/Node2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        <state relative-caret-position="30">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
