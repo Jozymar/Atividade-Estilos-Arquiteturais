@@ -6,20 +6,29 @@ import java.sql.SQLException;
 
 public class DaoPostgres implements IUserDao{
 
+    private Connection connection;
+
+    public DaoPostgres() {
+        try {
+            this.connection =  ConFactory.getConnectionPostgres();
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
+
     //Método para inserir os dados no banco Postgres
     @Override
-    public boolean insert(User user) throws SQLException, ClassNotFoundException {
+    public boolean insert(User user) throws SQLException {
 
-        Connection con = ConFactory.getConnectionPostgres();
-        PreparedStatement stmt = con.prepareStatement(
+        PreparedStatement stmt = connection.prepareStatement(
                 "INSERT INTO tb_user (code, name) VALUES (?,?)");
 
         stmt.setInt(1, user.getCode());
         stmt.setString(2, user.getName());
 
         boolean retorno = stmt.executeUpdate() > 0;
-
-        con.close();
         return retorno;
     }
 }

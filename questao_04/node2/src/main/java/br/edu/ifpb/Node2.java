@@ -23,9 +23,17 @@ public class Node2 {
         //Instancia o dao do Mysql
         DaoMysql daoMysql = new DaoMysql();
 
-        long tempoInicial = System.currentTimeMillis();
+        //Variáveis que armazenam o tempo das inserções
+        long tempoInicial = 0;
+        long tempoFinal = 0;
 
+        //Para realizar os testes altere o valor de 'i'
+        //(i < 100, i < 1000)
         for (int i = 0; i < 1000; i ++) {
+
+            if (i == 0) {
+                tempoInicial = System.currentTimeMillis();
+            }
 
             ObjectInputStream objectInputStream = new ObjectInputStream(socket.getInputStream());
             User user = (User) objectInputStream.readObject();
@@ -34,9 +42,14 @@ public class Node2 {
 
             daoMysql.insert(user);
 
-        }
+            //Para realizar os testes altere o valor de 'i'
+            //(i == 99, i == 999)
+            if (i == 999) {
+                tempoFinal = System.currentTimeMillis();
 
-        long tempoFinal = System.currentTimeMillis();
+            }
+
+        }
 
         System.out.println("Inserções finalizadas.");
         System.out.println("Tempo total: " + ((tempoFinal - tempoInicial)/1000) + " segundos.");

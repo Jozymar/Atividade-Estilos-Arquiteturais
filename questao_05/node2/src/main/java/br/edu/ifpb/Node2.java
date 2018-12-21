@@ -12,35 +12,38 @@ public class Node2 {
         ServerSocket serverSocket = new ServerSocket(8082);
         System.out.println("Aguardando uma conexão...");
 
-        //Criando socket
-        Socket socket = serverSocket.accept();
+        while (true) {
 
-        ObjectInputStream objectInputStream = new ObjectInputStream(socket.getInputStream());
-        Requisicao requisicao = (Requisicao) objectInputStream.readObject();
-        System.out.println("Mensagem recebida: " + requisicao);
+            //Criando socket
+            Socket socket = serverSocket.accept();
 
-        if (requisicao.getOperacao().equals("op2")) {
+            ObjectInputStream objectInputStream = new ObjectInputStream(socket.getInputStream());
+            Requisicao requisicao = (Requisicao) objectInputStream.readObject();
+            System.out.println("Mensagem recebida: " + requisicao);
 
-            //Variável que armazena o resultado da operação 2
-            Integer op2 = diff(requisicao.getX(), requisicao.getY());
+            if (requisicao.getOperacao().equals("op2")) {
 
-            File diff_file = new File("/opt/shared/diff.txt");
+                //Variável que armazena o resultado da operação 2
+                Integer op2 = diff(requisicao.getX(), requisicao.getY());
 
-            if (diff_file.exists()) {
+                File diff_file = new File("/opt/shared/diff.txt");
 
-                FileWriter fileWriter = new FileWriter(diff_file.getAbsoluteFile(), true);
-                BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
+                if (diff_file.exists()) {
 
-                bufferedWriter.write(op2.toString());
-                bufferedWriter.newLine();
-                bufferedWriter.close();
+                    FileWriter fileWriter = new FileWriter(diff_file.getAbsoluteFile(), true);
+                    BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
 
-            } else {
-                System.out.println("Arquivo não existe!");
+                    bufferedWriter.write(op2.toString());
+                    bufferedWriter.newLine();
+                    bufferedWriter.close();
+
+                } else {
+                    System.out.println("Arquivo não existe!");
+                }
             }
+
         }
 
-        socket.close();
     }
 
     //Método que realiza a operação diff

@@ -12,9 +12,9 @@
 
 #### - Sem threads - 
 
-> - 100 usuários: 8 segundos 
-> - 1000 usuários: 81 segundos
+> - 100 usuários: 6 segundos 
+> - 1000 usuários: 68 segundos
 
 #### - Com threads - 
  
-> - 1000 usuários: 55 segundos
+> - 1000 usuários: 1 segundo

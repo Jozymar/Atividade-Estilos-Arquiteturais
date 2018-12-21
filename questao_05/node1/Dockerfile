@@ -4,4 +4,4 @@ ADD . /opt/app
 RUN cd /opt/app && mvn compile package -DskipTests=true
 RUN chmod +x /opt/app/start.sh
 
-CMD touch /opt/shared/sum.txt
+CMD touch /opt/shared/sum.txt && /opt/app/start.sh

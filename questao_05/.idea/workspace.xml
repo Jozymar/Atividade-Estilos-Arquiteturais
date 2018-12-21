@@ -2,37 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d042d1b-5f04-41bc-82c0-9f913e88b5da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../questao_06/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../questao_06/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../questao_06/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../questao_06/.idea/questao_06.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../questao_06/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../questao_06/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../questao_06/node1/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../questao_06/node1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../questao_06/node1/node1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../questao_06/node1/src/main/java/br/edu/ifpb/Node1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../questao_06/node2/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../questao_06/node2/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../questao_06/node2/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../questao_06/node2/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../questao_06/node2/node2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../questao_06/node2/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../questao_06/node2/src/main/java/br/edu/ifpb/Node2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../questao_06/node3/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../questao_06/node3/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../questao_06/node3/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../questao_06/node3/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../questao_06/node3/node3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../questao_06/node3/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../questao_06/node3/src/main/java/br/edu/ifpb/Node3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../questao_04/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../questao_04/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../questao_04/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../questao_04/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../questao_04/node2/src/main/java/br/edu/ifpb/DaoMysql.java" beforeDir="false" afterPath="$PROJECT_DIR$/../questao_04/node2/src/main/java/br/edu/ifpb/DaoMysql.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../questao_04/node2/src/main/java/br/edu/ifpb/DaoPostgres.java" beforeDir="false" afterPath="$PROJECT_DIR$/../questao_04/node2/src/main/java/br/edu/ifpb/DaoPostgres.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../questao_04/node2/src/main/java/br/edu/ifpb/Node2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../questao_04/node2/src/main/java/br/edu/ifpb/Node2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../questao_04/node2/src/main/java/br/edu/ifpb/Node2ComThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/../questao_04/node2/src/main/java/br/edu/ifpb/Node2ComThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node0/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/node0/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node0/src/main/java/br/edu/ifpb/Node0.java" beforeDir="false" afterPath="$PROJECT_DIR$/node0/src/main/java/br/edu/ifpb/Node0.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/node1/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node0/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/node0/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node1/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/node1/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node1/src/main/java/br/edu/ifpb/Node1.java" beforeDir="false" afterPath="$PROJECT_DIR$/node1/src/main/java/br/edu/ifpb/Node1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/node2/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node2/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/node2/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node2/src/main/java/br/edu/ifpb/Node2.java" beforeDir="false" afterPath="$PROJECT_DIR$/node2/src/main/java/br/edu/ifpb/Node2.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node0/target/" />
@@ -86,26 +66,26 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="286" />
-          <entry key="xml" value="59" />
+          <entry key="java" value="365" />
+          <entry key="xml" value="60" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="286" />
-          <entry key="XML" value="59" />
+          <entry key="JAVA" value="365" />
+          <entry key="XML" value="60" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="16" />
-          <entry key="xml" value="10" />
+          <entry key="java" value="29" />
+          <entry key="xml" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="16" />
-          <entry key="XML" value="10" />
+          <entry key="JAVA" value="29" />
+          <entry key="XML" value="12" />
         </counts>
       </usages-collector>
     </session>
@@ -115,8 +95,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/node0/src/main/java/br/edu/ifpb/Node0.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="242">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -125,19 +105,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/node0/pom.xml">
+        <entry file="file://$PROJECT_DIR$/node2/src/main/java/br/edu/ifpb/Node2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node2/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+            <state relative-caret-position="120">
+              <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -145,17 +116,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/node1/src/main/java/br/edu/ifpb/Node1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node2/src/main/java/br/edu/ifpb/Node2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
+            <state relative-caret-position="315">
+              <caret line="28" column="62" selection-start-line="28" selection-start-column="62" selection-end-line="28" selection-end-column="62" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -176,11 +141,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/node0/src/main/java/br/edu/ifpb/Requisicao.java" />
-        <option value="$PROJECT_DIR$/node2/src/main/java/br/edu/ifpb/Node2.java" />
-        <option value="$PROJECT_DIR$/node1/src/main/java/br/edu/ifpb/Node1.java" />
         <option value="$PROJECT_DIR$/node1/pom.xml" />
         <option value="$PROJECT_DIR$/node2/pom.xml" />
         <option value="$PROJECT_DIR$/node0/pom.xml" />
+        <option value="$PROJECT_DIR$/node2/src/main/java/br/edu/ifpb/Node2.java" />
+        <option value="$PROJECT_DIR$/node1/src/main/java/br/edu/ifpb/Node1.java" />
         <option value="$PROJECT_DIR$/node0/src/main/java/br/edu/ifpb/Node0.java" />
       </list>
     </option>
@@ -197,7 +162,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-1" />
     <option name="y" value="32" />
     <option name="width" value="515" />
@@ -332,7 +297,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545271772961" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545359260998" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../questao_04" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -422,17 +387,18 @@
       <workItem from="1545261377012" duration="10080000" />
       <workItem from="1545312243525" duration="1800000" />
       <workItem from="1545320989844" duration="3718000" />
-      <workItem from="1545341534478" duration="1413000" />
+      <workItem from="1545341534478" duration="10323000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20469000" />
+    <option name="totallyTimeSpent" value="29379000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="25" width="1368" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22878788" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32575756" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -441,7 +407,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.08681672" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.17524116" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -472,9 +438,6 @@
     <entry file="file://$PROJECT_DIR$/node2/src/main/java/br/edu/ifpb/Requisicao.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/node1/src/main/java/br/edu/ifpb/Requisicao.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/node0/src/main/java/br/edu/ifpb/Requisicao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -489,16 +452,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node0/src/main/java/br/edu/ifpb/Node0.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node2/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -506,24 +459,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/node0/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node1/src/main/java/br/edu/ifpb/Requisicao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/node1/src/main/java/br/edu/ifpb/Node1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
+        <state relative-caret-position="315">
+          <caret line="28" column="62" selection-start-line="28" selection-start-column="62" selection-end-line="28" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node0/src/main/java/br/edu/ifpb/Node0.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node2/src/main/java/br/edu/ifpb/Node2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node0/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        <state relative-caret-position="120">
+          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
         </state>
       </provider>
     </entry>
